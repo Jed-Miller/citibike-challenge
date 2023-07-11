@@ -15,7 +15,7 @@ However, while the data has been regularly updated, the team has yet to implemen
 ## Deployment
 
 Please follow the link to the Tableau dashboard, showcasing the results of the analysis:
-[Citibike Project](https://public.tableau.com/app/profile/john.miller7271/viz/CitiBikeProject_16886889089780/GrowthofMembershipvs_Casual)
+[Citibike Project](https://public.tableau.com/authoring/CitiBikeProject_16886889089780/Story1#1)
 
 ## Data Collection
 
