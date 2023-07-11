@@ -16,4 +16,12 @@ However, while the data has been regularly updated, the team has yet to implemen
 
 In a jupyter notebook, I pulled the different citibike csv files into dataframes and then concatenated them to each other.
 
-![concatenation](./
+![concatenation](./concatenation.png "concatentaion of datasets")
+
+![dat_info](./dataset_info.png "Dataset info")
+
+Next, I added a column to the dataset to get the distance traveled for each bike ride.
+
+![distance_column](./distance_column.png "diatnce column")
+
+
