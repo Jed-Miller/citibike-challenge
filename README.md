@@ -12,6 +12,11 @@ Since 2013, the Citi Bike program has implemented a robust infrastructure for co
 
 However, while the data has been regularly updated, the team has yet to implement a dashboard or sophisticated reporting process. City officials have questions about the program, so your first task on the job is to build a set of data reports to provide the answers.
 
+## Deployment
+
+Please follow the link to the Tableau dashboard, showcasing the results of the analysis:
+[Citibike Project](https://public.tableau.com/app/profile/john.miller7271/viz/CitiBikeProject_16886889089780/GrowthofMembershipvs_Casual)
+
 ## Data Collection
 
 In a jupyter notebook, I pulled the different citibike csv files into dataframes and then concatenated them to each other. All of my files realte to Jersey City and not New York City.
@@ -42,7 +47,21 @@ Analyzing the most popular start and end stations for both classic and e-bikes, 
 
 ### Days and Times
 
-![start_end](./Images/start_end.png)
+![day_time](./Images/day_time.png)
+
+Regarding bike usage in Jersey City, the Citibike program can largely be ascribed to a local commuter service, which should be it's first function anyways. The largest usage are weekdays during commute hours, and while there is frequent use on the weekend, they don't match up to the weekdays during rush hour traffic.
+
+### Growth Rate
+
+![difference_membership](./Images/difference_membership.png)
+
+The Citibike program has grown by all metrics in 2023. We see a slight dip in usage rates in February, which makes sense because that is often the coldest month of the year. One interesting finding though is that e-bike usage drops in late spring, which we speculate has to do with people' desire to use the bikes as a form of exercise as well as transportation.
+
+### Starting and Ending Stations
+
+![stations](./Images/stations.png)
+
+The last dashboard captures the different starting and ending stations used on a daily basis. The dashboard scrolls each day, changing the size of the circle marker for each station to show how many bikes were used there relative to the other stations.
 
 
 
