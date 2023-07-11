@@ -1,7 +1,7 @@
 # citibike-challenge
 
 <p align="center">
-  <img src="./citi_bike_image.png"/>
+  <img src="./Images/citi_bike_image.png"/>
 </p>
 
 ## Overview
@@ -16,12 +16,18 @@ However, while the data has been regularly updated, the team has yet to implemen
 
 In a jupyter notebook, I pulled the different citibike csv files into dataframes and then concatenated them to each other.
 
-![concatenation](./concatenation.png "concatentaion of datasets")
+![concatenation](./Images/concatenation.png "concatentaion of datasets")
 
-![dat_info](./dataset_info.png "Dataset info")
+![dat_info](./Images/dataset_info.png "Dataset info")
 
 Next, I added a column to the dataset to get the distance traveled for each bike ride.
 
-![distance_column](./distance_column.png "diatnce column")
+![distance_column](./Images/distance_column.png "diatnce column")
+
+After creating this final column, I read the dataframe into a csv to use in Tableau.
+
+##Data Visualization
+
+
 
 
