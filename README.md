@@ -14,7 +14,7 @@ However, while the data has been regularly updated, the team has yet to implemen
 
 ## Data Collection
 
-In a jupyter notebook, I pulled the different citibike csv files into dataframes and then concatenated them to each other.
+In a jupyter notebook, I pulled the different citibike csv files into dataframes and then concatenated them to each other. All of my files realte to Jersey City and not New York City.
 
 ![concatenation](./Images/concatenation.png "concatentaion of datasets")
 
@@ -26,7 +26,27 @@ Next, I added a column to the dataset to get the distance traveled for each bike
 
 After creating this final column, I read the dataframe into a csv to use in Tableau.
 
-##Data Visualization
+## Data Visualization
+
+### Ride Totals for Members vs. Casual
+
+![total_rides](./Images/ride_numbers.png)
+
+The first dashobard illustrates how Citibike largely services a membership-based clientele. with members using the bikes 3x the amount that casual clients use the bikes. Not surprisingly, the highest usage of bikes occur during commute times.
+
+### Top 25 Start and End Stations
+
+![start_end](./Images/start_end.png)
+
+Analyzing the most popular start and end stations for both classic and e-bikes, Citibike would be wise to make sure that the most popular stations have the resources they need because there is direct overlap between the most popular starting stations and ending stations, regardless of the type of bike used.
+
+### Days and Times
+
+![start_end](./Images/start_end.png)
+
+
+
+
 
 
 
